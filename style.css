@@ -7,6 +7,128 @@
     --color-blue-dark: #399cb5;
 }
 
+
+
+.container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: top;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 0;
+}
+
+.logo-icon {
+    height: 50px;
+    width: auto;
+}
+
+.logo-icon-small {
+    height: 15px;
+    width: auto;
+}
+
+.icon-wrapper {
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .icon {
+        font-size: 80px;
+    }
+
+    .icon-small {
+        font-size: 24px;
+    }
+
+    .controller-img {
+        width: auto;
+        height: 350px;
+        margin-top: 10px;
+    }
+
+    h1 {
+        font-size: 1.7rem;
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        font-size: 1.7rem;
+        margin-bottom: 0px;
+        font-weight: 500;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-bottom: 8px;
+    }
+
+    p {
+        font-size: 0.95rem;
+        color: #ddd;
+        line-height: 1.4;
+        margin: 0;
+    }
+
+    .desktop-only {
+        display: block;
+    }
+
+    .mobile-only {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .icon {
+        font-size: 40px;
+    }
+
+    .controller-img {
+        width: auto;
+        height: 125px;
+        margin: auto;
+    }
+
+    h1 {
+        font-size: 1.7rem;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 1.7rem;
+        margin-bottom: 0px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-bottom: 8px;
+        text-align: center;
+    }
+
+    p {
+        font-size: 0.95rem;
+        color: #ddd;
+        line-height: 1.4;
+        margin: 0;
+        text-align: center;
+    }
+
+    .desktop-only {
+        display: none;
+    }
+
+    .mobile-only {
+        display: block;
+    }
+}
+
 ::-webkit-scrollbar {
     width: 12px;
     height: 12px;
@@ -57,35 +179,12 @@ body {
     flex-direction: column;
 }
 
-h1 {
-    font-size: 1.7rem;
-    margin-bottom: 20px;
-}
 
-h2 {
-    font-size: 1.7rem;
-    margin-bottom: 0px;
-    font-weight: 500;
-}
 
 .page-one {
     display: flex;
     justify-content: center;
     padding: 40px 20px;
-}
-
-.container {
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-    align-items: top;
-    flex-wrap: wrap;
-    max-width: 1200px;
-    margin: 0 0;
-}
-
-.left {
-    max-width: 400px;
 }
 
 .title-blue {
@@ -122,7 +221,7 @@ h2 {
         'FILL' 0,
         'wght' 250,
         'GRAD' 40,
-        'opsz' 48;
+        'opsz' 24;
     line-height: 0.5;
     vertical-align: middle;
 
@@ -171,22 +270,13 @@ h2 {
     justify-content: center;
 }
 
-.controller-img {
-    width: auto;
-    height: 45vh;
-    display: block;
-    margin-top: 10px;
-}
+
 
 .page-two {
     background-color: #111;
     text-align: center;
     padding: 40px;
 }
-
-/* * {
-    outline: 1px solid red;
-} */
 
 .page-two .subtext {
     color: #ccc;
@@ -204,18 +294,7 @@ h2 {
     margin-bottom: 20px;
 }
 
-.section h3 {
-    font-size: 1.2rem;
-    font-weight: 600;
-    margin-bottom: 8px;
-}
 
-.section p {
-    font-size: 0.95rem;
-    color: #ddd;
-    line-height: 1.4;
-    margin: 0;
-}
 
 .blue {
     color: var(--color-blue);
@@ -247,18 +326,6 @@ h2 {
     font-size: 1rem;
     margin-bottom: 36px;
     line-height: 1.4;
-}
-
-.security-graphic {
-    max-width: 250px;
-    width: 100%;
-    height: auto;
-}
-
-.ui-graphic {
-    max-width: 300px;
-    width: 100%;
-    height: auto;
 }
 
 .nowrap {
@@ -313,12 +380,3 @@ h2 {
     color: #1fa1d8;
 }
 
-.logo-icon {
-    height: 50px;
-    width: auto;
-}
-
-.logo-icon-small {
-    height: 15px;
-    width: auto;
-}
