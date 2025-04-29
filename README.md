@@ -1,4 +1,4 @@
-**UltraKey** - *The next generation software remapper*
+**UltraKey** - *The next generation input remapper*
 
 # Feature Overview
 - Remap mouse and keyboard to controller
