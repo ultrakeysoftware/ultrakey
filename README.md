@@ -22,3 +22,4 @@
 - [v1.0.0](https://drive.google.com/file/d/1mFlzmnDBKuoJ8ZGepiloYaQS_UWwaS6r/view?usp=drive_link)
 - [v1.0.1](https://drive.google.com/file/d/1PNEkRiEFiabI3PmqEoR378GLyPOr_08_/view?usp=drive_link)
 - [v1.0.2](https://drive.google.com/file/d/1-WD-U3Mh7LRtu7yDhhOb-zXRz1YbvpgG/view?usp=drive_link)
+- [v1.1.0](https://drive.google.com/file/d/1cbyGsCaYDRtjhXN4GwLAuzx-qxMTQgkY/view?usp=drive_link)
